@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw, ImageColor, ImageFont
 
 
 class PaletteRenderer:
-    fnt_header = ImageFont.truetype("arial.ttf", 52, encoding="unic")
+    fnt_header = ImageFont.truetype("arial.ttf", 46, encoding="unic")
     fnt_body = ImageFont.truetype("arial.ttf", 28, encoding="unic")
     img_size = 500
     rect_size = 50  # px
