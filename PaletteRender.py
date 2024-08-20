@@ -29,10 +29,10 @@ class PaletteRenderer:
         color = self.__GetKey("IndicatorColor")
 
         # thin border
-        self.context.text((x - 2, y), self.title, font=self.fnt_header, fill=(0, 0, 0, 255))
-        self.context.text((x + 2, y), self.title, font=self.fnt_header, fill=(0, 0, 0, 255))
-        self.context.text((x, y - 2), self.title, font=self.fnt_header, fill=(0, 0, 0, 255))
-        self.context.text((x, y + 2), self.title, font=self.fnt_header, fill=(0, 0, 0, 255))
+        self.context.text((x - 1, y), self.title, font=self.fnt_header, fill=(0, 0, 0, 255))
+        self.context.text((x + 1, y), self.title, font=self.fnt_header, fill=(0, 0, 0, 255))
+        self.context.text((x, y - 1), self.title, font=self.fnt_header, fill=(0, 0, 0, 255))
+        self.context.text((x, y + 1), self.title, font=self.fnt_header, fill=(0, 0, 0, 255))
 
         self.context.text((x, y), self.title, font=self.fnt_header, fill=color)
 

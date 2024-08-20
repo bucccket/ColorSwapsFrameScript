@@ -5,9 +5,9 @@ import xmltodict
 from ColorSchemeType import ColorSchemeType
 from PaletteRender import PaletteRenderer
 
-ColorSwapClass = "_-W2t"
-ColorSwapVector = "_-n2E"  # last static vector of ColorSwapClass
-ColorSwapArray = "_-Pi"  # last non-static public Array
+ColorSwapClass = "_-E3k"
+ColorSwapVector = "_-41Z"  # last static vector of ColorSwapClass
+ColorSwapArray = "_-P3T"  # last non-static public Array
 
 def main():
     xml_tree = LoadXML()
