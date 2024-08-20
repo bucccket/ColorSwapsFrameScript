@@ -9,12 +9,6 @@ ColorSwapClass = "_-E3k"
 ColorSwapVector = "_-41Z"  # last static vector of ColorSwapClass
 ColorSwapArray = "_-P3T"  # last non-static public Array
 
-def main():
-    xml_tree = LoadXML()
-    colorschemes = GenerateColorSchemes(xml_tree)
-    ExportColorSchemes(colorschemes)
-    RenderColorSchemes(colorschemes)
-
 
 def RenderColorSchemes(colorschemes):
     for colorscheme in colorschemes:
@@ -51,10 +45,10 @@ def GenerateColorSchemes(xml_tree):
     return colorschemes
 
 
-def LoadXML():
+def LoadXML(xml_file: str):
     xml_tree = {}
     try:
-        xml_file = open("ColorSchemeTypes.xml", "r")
+        xml_file = open(xml_file, "r")
     except Exception as e:
         print("Failed Opening XML File")
         print(e)
@@ -70,4 +64,7 @@ def LoadXML():
 
 
 if __name__ == "__main__":
-    main()
+    xml_tree = LoadXML("CustomSchemes.xml")
+    colorschemes = GenerateColorSchemes(xml_tree)
+    ExportColorSchemes(colorschemes)
+    RenderColorSchemes(colorschemes)
