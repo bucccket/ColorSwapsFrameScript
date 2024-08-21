@@ -1,4 +1,5 @@
 import os
+from os import walk
 from pprint import pprint
 
 import xmltodict
@@ -48,10 +49,10 @@ def GenerateColorSchemes(xml_tree):
     return colorschemes
 
 
-def LoadXML(xml_file: str):
+def LoadXML(xml_file_name: str):
     xml_tree = {}
     try:
-        xml_file = open(xml_file, "r")
+        xml_file = open(xml_file_name, "r")
     except Exception as e:
         print("Failed Opening XML File")
         print(e)
@@ -67,7 +68,15 @@ def LoadXML(xml_file: str):
 
 
 if __name__ == "__main__":
-    xml_tree = LoadXML("CustomSchemes.xml")
-    colorschemes = GenerateColorSchemes(xml_tree)
-    ExportColorSchemes(colorschemes)
-    RenderColorSchemes(colorschemes)
+    f = []
+    for dirpath, dirnames, filenames in walk("import/"):
+        f.extend(filenames)
+        break
+
+    for xml_file_name in f:
+        if not xml_file_name.endswith(".xml"):
+            continue
+        xml_tree = LoadXML("import/" + xml_file_name)
+        colorschemes = GenerateColorSchemes(xml_tree)
+        ExportColorSchemes(colorschemes)
+        RenderColorSchemes(colorschemes)
