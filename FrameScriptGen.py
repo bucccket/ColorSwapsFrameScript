@@ -1,6 +1,5 @@
 import os
 from os import walk
-from pprint import pprint
 
 import xmltodict
 
@@ -43,8 +42,6 @@ def ExportColorSchemes(colorschemes):
 def GenerateColorSchemes(xml_tree):
     colorschemes = []
     for colorscheme in xml_tree["ColorSchemeTypes"]["ColorSchemeType"]:
-        if colorscheme["@ColorSchemeName"] == "Tecks":
-            pprint(colorscheme)
         colorschemes.append(ColorSchemeType(colorscheme))
     return colorschemes
 
