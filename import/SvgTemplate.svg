@@ -80,7 +80,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="HairN_Swap"
+       id="Hair_Swap"
        width="50.006248"
        height="50.006248"
        x="264.58334"
@@ -100,7 +100,7 @@
        x="158.75"
        height="50.006248"
        width="50.006248"
-       id="Body1Vl_Swap"
+       id="Body1VL_Swap"
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
@@ -116,7 +116,7 @@
        x="264.58334"
        height="50.006248"
        width="50.006248"
-       id="Body1N_Swap"
+       id="Body1_Swap"
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
@@ -132,7 +132,7 @@
        x="370.41666"
        height="50.006248"
        width="50.006248"
-       id="Body1Vd_Swap"
+       id="Body1VD_Swap"
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
@@ -144,7 +144,7 @@
        rx="10.066534" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="Body2Vl_Swap"
+       id="Body2VL_Swap"
        width="50.006248"
        height="50.006248"
        x="158.75"
@@ -160,7 +160,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="Body2N_Swap"
+       id="Body2_Swap"
        width="50.006248"
        height="50.006248"
        x="264.58334"
@@ -176,7 +176,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="Body2Vd_Swap"
+       id="Body2VD_Swap"
        width="50.006248"
        height="50.006248"
        x="370.41666"
@@ -196,7 +196,7 @@
        x="158.75"
        height="50.006248"
        width="50.006248"
-       id="SpecialVl_Swap"
+       id="SpecialVL_Swap"
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
@@ -212,7 +212,7 @@
        x="264.58334"
        height="50.006248"
        width="50.006248"
-       id="SpecialN_Swap"
+       id="Special_Swap"
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
@@ -228,7 +228,7 @@
        x="370.41666"
        height="50.006248"
        width="50.006248"
-       id="SpecialVd_Swap"
+       id="SpecialVD_Swap"
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
@@ -240,7 +240,7 @@
        rx="10.066534" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="ClothVl_Swap"
+       id="ClothVL_Swap"
        width="50.006248"
        height="50.006248"
        x="158.75"
@@ -256,7 +256,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="ClothN_Swap"
+       id="Cloth_Swap"
        width="50.006248"
        height="50.006248"
        x="264.58334"
@@ -276,7 +276,7 @@
        x="158.75"
        height="50.006248"
        width="50.006248"
-       id="WeaponVl_Swap"
+       id="WeaponVL_Swap"
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
@@ -292,7 +292,7 @@
        x="264.58334"
        height="50.006248"
        width="50.006248"
-       id="WeaponN_Swap"
+       id="Weapon_Swap"
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47371918;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"

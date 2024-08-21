@@ -17,7 +17,7 @@ class PaletteRenderer:
         self.xml_dict = xml_dict
         self.title = self.xml_dict["@ColorSchemeName"]
 
-    def Render(self, name="img/output.png"):
+    def Render(self, name):
         self.__RenderTitle()
         self.__RenderText()
         self.__RenderTiles()
