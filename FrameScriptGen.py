@@ -41,8 +41,12 @@ def ExportColorSchemes(colorschemes):
 
 def GenerateColorSchemes(xml_tree):
     colorschemes = []
-    for colorscheme in xml_tree["ColorSchemeTypes"]["ColorSchemeType"]:
-        colorschemes.append(ColorSchemeType(colorscheme))
+    colorschmetype = xml_tree["ColorSchemeTypes"]["ColorSchemeType"]
+    if isinstance(colorschmetype, list):
+        for colorscheme in xml_tree["ColorSchemeTypes"]["ColorSchemeType"]:
+            colorschemes.append(ColorSchemeType(colorscheme))
+    else:
+        colorschemes.append(ColorSchemeType(colorschmetype))
     return colorschemes
 
 
