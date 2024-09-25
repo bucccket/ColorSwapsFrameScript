@@ -16,8 +16,6 @@
         {
           buildInputs = with pkgs; [
             python311
-            pip
-            python
             python311Packages.pillow
             python311Packages.xmltodict
             jpexs

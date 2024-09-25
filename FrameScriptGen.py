@@ -6,9 +6,9 @@ import xmltodict
 from ColorSchemeType import ColorSchemeType
 from PaletteRender import PaletteRenderer
 
-ColorSwapClass = "_-U8" # _> COLOR_BODY1_LT
-ColorSwapVector = "_-r38"  # last static vector of ColorSwapClass
-ColorSwapArray = "_-35X"  # last non-static public Array
+ColorSwapClass = "_-q2k" # _> COLOR_BODY1_LT
+ColorSwapVector = "_-dQ"  # last static vector of ColorSwapClass
+ColorSwapArray = "_-D2n"  # last non-static public Array
 
 
 def RenderColorSchemes(colorschemes):
